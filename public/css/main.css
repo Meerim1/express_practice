@@ -1,0 +1,18 @@
+.header {
+  width: 100%;
+  border: 1px solid #ccc;
+}
+.header__item {
+  list-style: none;
+  a {
+    text-decoration: none;
+    color: #111;
+  }
+}
+.main {
+  width: calc(100vw-20px);
+}
+.main__image {
+    width: 100%;
+  border: 1px solid red;
+}
