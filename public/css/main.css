@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navigation {
+  height: auto;
+  padding: 1rem;
+  background-color: #333;
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+      display: inline-block;
+      a {
+        color: white;
+        text-decoration: none;
+        padding: 0 1rem;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+main {
+  width: 100%;
+  height: calc(100vh - 80px);
+  margin: auto;
+  padding: 1rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
